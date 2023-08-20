@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "814cab177eaaf8b4e51f262a2c52accf",
+    "content-hash": "b2a54f3174e21f96c585964e6a744664",
     "packages": [
         {
             "name": "composer/installers",
@@ -1253,6 +1253,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disable-wp-rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/offload-media-cloud-storage",
+            "version": "1.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/offload-media-cloud-storage/",
+                "reference": "tags/1.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/offload-media-cloud-storage.1.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/offload-media-cloud-storage/"
         },
         {
             "name": "wpackagist-plugin/wp-graphql",
