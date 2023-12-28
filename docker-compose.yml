@@ -17,7 +17,7 @@ services:
 
   db:
     container_name: db
-    image: mariadb:10.8.3
+    image: mariadb:10.11.6
     restart: always
     environment:
       MYSQL_USER: $DB_USER
